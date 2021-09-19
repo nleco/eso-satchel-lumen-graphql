@@ -1,0 +1,17 @@
+{
+    "name": "eso-satchel-lumen-graphql",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "git@github.com:nleco/eso-satchel-lumen-graphql.git",
+    "author": "Sam Sanchez <s.sanchez.g@gmail.com>",
+    "license": "MIT",
+    "private": true,
+    "scripts": {
+        "start": "php -S localhost:8000 -t public",
+        "migrate": "php artisan migrate"
+    },
+    "devDependencies": {
+        "@prettier/plugin-php": "^0.17.5",
+        "prettier": "^2.4.1"
+    }
+}
